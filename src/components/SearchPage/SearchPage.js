@@ -6,7 +6,7 @@ import styles from './SearchPage.css';
 
 const SearchPage = () => {
 
-  const [username, newUsername] = useState('');
+  const [username, newUsername] = useState('nickbrimmer');
   const dispatch = useDispatch();
 
   const searchUser = event => {
