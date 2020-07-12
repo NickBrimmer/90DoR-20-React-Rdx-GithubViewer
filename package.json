@@ -20,7 +20,7 @@
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p --devtool source-map",
-    "compile-sass": "node-sass main.scss "
+    "compile-sass": "node-sass src/styles/main.scss src/styles/styles.css"
   },
   "keywords": [],
   "author": "",
