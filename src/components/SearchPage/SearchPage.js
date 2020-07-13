@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchUser } from '../../actions/actions';
 import styles from './SearchPage.css';
+import '../../styles/styles.css';
 
 
 const SearchPage = () => {

@@ -19,12 +19,14 @@
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
-    "build": "webpack -p --devtool source-map"
+    "build": "webpack -p --devtool source-map",
+    "compile-sass": "node-sass src/styles/main.scss src/styles/styles.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^7.2.0",
