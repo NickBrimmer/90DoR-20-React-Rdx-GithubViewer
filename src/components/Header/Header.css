@@ -4,16 +4,11 @@
 
 
 .hdrText {
+  margin-top: 20vh;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
-
-}
-
-.headerImg {
-  width: 100vw;  
-  padding-bottom: 5vh;
 }
 
 .subHeaderText {
